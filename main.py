@@ -8,4 +8,5 @@ def st_ui(clean_text):
   plt.imshow(wordcloud,interpolation="bilinear")
   plt.axis("off")
   plt.tight_layout(pad = 0)
-  return plt.show()
+  plt.show()
+#   return image
